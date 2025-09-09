@@ -1,4 +1,4 @@
-# CheckPoint 1 – Fundamentos de C# (3ESPY)
+# CheckPoint 1 – Fundamentos de C# (3ESPR)
 
 Repositório criado para entrega do **Checkpoint 1** da disciplina **Desenvolvimento em C#**.  
 Turma: **3ESPR**  

@@ -9,11 +9,9 @@ namespace CheckPoint1
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("=== CHECKPOINT 1 - FUNDAMENTOS C# - Turma  3ESPY ===\n");
+            Console.WriteLine("=== CHECKPOINT 1 - FUNDAMENTOS C# - Turma  3ESPR ===\n");
 
-            // ENTREGA ATÉ DIA 08/09 AS 23:59
-            // Você deve criar um repositório público ou branch no github e me enviar o link pelo
-            // teams antes do fim do prazo.
+
 
             Console.WriteLine("1. Testando DemonstrarTiposDados...");
             Console.WriteLine(DemonstrarTiposDados());
@@ -79,9 +77,6 @@ namespace CheckPoint1
             Console.ReadKey();
         }
 
-        // =====================================================================
-        // QUESTÃO 1 - VARIÁVEIS E TIPOS DE DADOS (10 pontos)
-        // =====================================================================
         private static string DemonstrarTiposDados()
         {
             int inteiro = 42;
@@ -94,9 +89,6 @@ namespace CheckPoint1
             return $"Inteiro: {inteiro}, Decimal: {decimalz}, Booleano: {booleano}, Caractere: {caractere}, Texto: {texto}, Inferido: {inferido}";
         }
 
-        // =====================================================================
-        // QUESTÃO 2 - OPERADORES ARITMÉTICOS (10 pontos)
-        // =====================================================================
         private static double CalculadoraBasica(double num1, double num2, char operador)
         {
             switch (operador)
@@ -109,9 +101,6 @@ namespace CheckPoint1
             }
         }
 
-        // =====================================================================
-        // QUESTÃO 3 - OPERADORES RELACIONAIS E LÓGICOS (10 pontos)
-        // =====================================================================
         private static string ValidarIdade(int idade)
         {
             if (idade < 0 || idade > 120)
@@ -126,9 +115,6 @@ namespace CheckPoint1
                 return "Idoso";
         }
 
-        // =====================================================================
-        // QUESTÃO 4 - CONVERSÃO DE TIPOS (10 pontos)
-        // =====================================================================
         private static string ConverterString(string valor, string tipoDesejado)
         {
             if (tipoDesejado == null) return "Conversão impossível para [tipo]";
@@ -157,9 +143,6 @@ namespace CheckPoint1
             }
         }
 
-        // =====================================================================
-        // QUESTÃO 5 - ESTRUTURA CONDICIONAL SWITCH (10 pontos)
-        // =====================================================================
         private static string ClassificarNota(double nota)
         {
             if (nota < 0.0 || nota > 10.0)
@@ -174,10 +157,6 @@ namespace CheckPoint1
                 default: return "Nota inválida";
             }
         }
-
-        // =====================================================================
-        // QUESTÃO 6 - ESTRUTURA FOR (10 pontos)
-        // =====================================================================
         private static string GerarTabuada(int numero)
         {
             if (numero <= 0) return "Número inválido";
@@ -190,9 +169,7 @@ namespace CheckPoint1
             return sb.ToString();
         }
 
-        // =====================================================================
-        // QUESTÃO 7 - ESTRUTURA WHILE (15 pontos)
-        // =====================================================================
+
         private static string JogoAdivinhacao(int numeroSecreto, int[] tentativas)
         {
             if (tentativas == null || tentativas.Length == 0)
@@ -231,9 +208,6 @@ namespace CheckPoint1
             return sb.ToString();
         }
 
-        // =====================================================================
-        // QUESTÃO 8 - ESTRUTURA DO-WHILE (15 pontos)
-        // =====================================================================
         private static string ValidarSenha(string senha)
         {
             var erros = new StringBuilder();
@@ -266,9 +240,7 @@ namespace CheckPoint1
             return erros.Length == 0 ? "Senha válida" : $"Senha inválida:\n{erros}";
         }
 
-        // =====================================================================
-        // QUESTÃO 9 - ESTRUTURA FOREACH (15 pontos)
-        // =====================================================================
+
         private static string AnalisarNotas(double[] notas)
         {
             if (notas == null || notas.Length == 0)
@@ -311,9 +283,6 @@ namespace CheckPoint1
             return sb.ToString();
         }
 
-        // =====================================================================
-        // QUESTÃO 10 - MULTIPLE FOREACH (DESAFIO) (20 pontos)
-        // =====================================================================
         private static string ProcessarVendas(double[] vendas, string[] categorias, double[] comissoes, string[] nomesCategorias)
         {
             if (vendas == null || categorias == null || comissoes == null || nomesCategorias == null)
@@ -377,9 +346,6 @@ namespace CheckPoint1
             return sb.ToString();
         }
 
-        // =====================================================================
-        // MÉTODOS AUXILIARES (NÃO ALTERAR - APENAS PARA REFERÊNCIA)
-        // =====================================================================
         private static void ExemploMetodoEstatico()
         {
             Console.WriteLine("Sou um método estático - chamado direto da classe");
@@ -393,3 +359,4 @@ namespace CheckPoint1
         */
     }
 }
+

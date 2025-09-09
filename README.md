@@ -1,7 +1,7 @@
 # CheckPoint 1 – Fundamentos de C# (3ESPY)
 
 Repositório criado para entrega do **Checkpoint 1** da disciplina **Desenvolvimento em C#**.  
-Turma: **3ESPY**  
+Turma: **3ESPR**  
 Aluno: **Kaio Meireles**  
 RM: **553282**
 
